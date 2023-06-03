@@ -266,9 +266,38 @@ ul li:hover ul {
     margin-left: 50px;
 }
 
-.navbar-toggler-icon{
+/* .navbar-toggler-icon{
     background: #fff;
-}
+} */
 .display{
     display: block;
+}
+.btn-scroll-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    display: block;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #fe043c;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+.btn-scroll-top:hover{
+    background-color: #000;
+}
+.img-bg {
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    color: #fe043c;
+}
+.title-banner{
+    margin-top: 185px;
 }
